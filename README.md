@@ -1,4 +1,4 @@
-Certainly! Here are the individual tables for each use case:
+
 
 ### Use Case Table: Register Support Manager
 
