@@ -15,7 +15,7 @@ Manually register a Support Manager using a DB script at system.
 | UC2             | Register External Client | External Client | Allow External Clients to register through a client registration link available on the login page. | System is initialized and running. | External Client is registered and can log in to the system.    | 1. External Client accesses the login page.<br>2. External Client clicks on the registration link.<br>3. External Client fills in the registration form.<br>4. System validates the information and registers the client. | 1. If registration fails due to validation errors, prompt the user to correct the information.<br>2. If registration fails due to system error, display an appropriate error message. |
 
 ### 1.2 Register External Client Wireframe
-<img width="262" alt="image" src="https://github.com/user-attachments/assets/bdb08602-46e0-4633-938e-d6e9279d3484">
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/bdb08602-46e0-4633-938e-d6e9279d3484">
 
 ### Use Case Table: Add Support Team Member
 
@@ -24,7 +24,7 @@ Manually register a Support Manager using a DB script at system.
 | UC3             | Add Support Team Member  | Support Manager   | Allow Support Manager to add Support Team members from inside the system.           | Support Manager is logged in.  | Support Team Member is registered and can log in to the system. | 1. Support Manager logs into the system.<br>2. Support Manager navigates to the team management section.<br>3. Support Manager fills in the registration form.<br>4. System validates the information and registers the team member. | N/A                |
 
 ### 1.3 Add Support Team Member
-<img width="234" alt="image" src="https://github.com/user-attachments/assets/5869f470-7b45-42f6-9c40-803e3f42d961">
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/5869f470-7b45-42f6-9c40-803e3f42d961">
 
 ### Use Case Table: Login
 
@@ -33,7 +33,7 @@ Manually register a Support Manager using a DB script at system.
 | UC4             | Login             | Support Manager, Support Team Member, External Client | Allow users to log in using their username or email and password.                                   | User is registered in the system.    | User is logged in and can access the system.                 | 1. User navigates to the login page.<br>2. User enters username/email and password.<br>3. System validates credentials.<br>4. User is granted access to the system. | 1. If credentials are invalid, prompt the user to re-enter credentials.<br>2. If there is a system error, display an appropriate error message. |
 
 ### 1.4 Login Wireframe
-<img width="385" alt="image" src="https://github.com/user-attachments/assets/c75d2a8a-c6ac-4463-9d9e-f73d314be207">
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/c75d2a8a-c6ac-4463-9d9e-f73d314be207">
 
 ### Use Case Table: Support Manager Workflow
 
@@ -66,7 +66,7 @@ Manually register a Support Manager using a DB script at system.
 | UC6             | External Client Ticket Management | External Client | Allow External Client to log in, view, add, and edit their support tickets.                 | External Client is logged in.     | External Client's tickets are managed.                                     | 1. External Client logs into the system.<br>2. External Client navigates to the ticket management section.<br>3. External Client views the list of their tickets.<br>4. External Client adds/edits tickets as needed.<br>5. External Client submits tickets, which get the status 'New'. | N/A                |
 
 ### 1.6 External Client Ticket Management Wireframe
-![Uploading image.png…]()
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/a03db358-982a-48bb-bddf-e8f2e2e62f99">
 
 ### Use Case Table: Ticket Assignment
 
@@ -83,4 +83,12 @@ Manually register a Support Manager using a DB script at system.
 | **Use Case ID** | **Use Case Name**            | **Actors**            | **Description**                                                                                               | **Preconditions**                     | **Postconditions**                                                      | **Main Flow**                                                                                                                                                   | **Alternate Flow**                                                                                                      |
 |-----------------|------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | UC8             | Support Employee Ticket Management | Support Team Member | Allow Support Team Member to view, comment, and close assigned tickets.                                       | Support Team Member is logged in.     | Support tickets are managed and resolved.                                        | 1. Support Team Member logs into the system.<br>2. Support Team Member navigates to the ticket management section.<br>3. Support Team Member views the list of assigned tickets.<br>4. Support Team Member adds comments to tickets.<br>5. Support Team Member closes tickets after client confirmation. | 1. If there is an error in ticket management, display an appropriate error message.<br>2. If closing a ticket fails, prompt the user to retry or escalate. |
+
+#### 1.8 Support Employee Ticket Management Wireframes 
+
+#### 1.8.1  Views the List of Assigned Tickets
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/9a9ae817-331b-4b0d-a00d-2d7ee24fd13e">
+
+#### 1.8.2  Adds Comments and Closes Ticket
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/56dea055-1be4-47cb-8d21-636e920b3bce">
 
